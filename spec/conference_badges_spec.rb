@@ -6,6 +6,9 @@ describe 'conference_badges' do
   let(:attendees) {["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]}
   let(:badges) {[
     (badge_maker(name)).to
+                  "Hello, my name is Edsger.",
+                  "Hello, my name is Ada.",
+                  "Hello, my name is Charles.",
                   "Hello, my name is Alan.",
                   "Hello, my name is Grace.",
                   "Hello, my name is Linus.",
@@ -14,7 +17,7 @@ describe 'conference_badges' do
                ]}
 
 end 
-
+describe 'assign_rooms' do
   let(:room_assignments) {[
                             "Hello, Edsger! You'll be assigned to room 1!",
                             "Hello, Ada! You'll be assigned to room 2!",
