@@ -11,7 +11,8 @@ describe 'conference_badges' do
                   "Hello, my name is Alan.",
                   "Hello, my name is Grace.",
                   "Hello, my name is Linus.",
-                  "Hello, my name is Matz."
+                  "Hello, my name is Matz.",
+                  "Hello, my name is Arel."
                ]}
 
   let(:room_assignments) {[
